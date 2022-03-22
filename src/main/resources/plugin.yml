@@ -1,0 +1,75 @@
+name: UniDrops
+version: ${project.version}
+main: com.uniteam.unitdrops.unidrops.UniDrops
+api-version: 1.16
+authors:
+  - Aloxx
+  - millem
+description: AirDrop
+commands:
+  unidrops: {}
+locations:
+  minX: -2000
+  maxX: 4000
+  spawnY: 150
+  minZ: -2000
+  maxZ: 4000
+messages:
+  prefix: §6[Uni§2Drops]
+  airdrop_spawned: §6[Uni§2Drops]§eАирДроп появился на координатах§c
+  airdrop_despawned: §6[Uni§2Drops]§eАирДроп пропал
+  airdrop_taken: §dЗабрал АирДроп!
+  airdrop_bossbar: До пропадения АирДропа
+  airdrop_no_items: §6[Uni§2Drops]§e У вас пустой инвентарь!
+  plugin_enabled: §6[Uni§2Drops]§7 АирДропы §eвключены
+  plugin_disabled: §6[Uni§2Drops]§7 АирДропы §4выключены
+colors:
+  nickname_color: §7
+settings:
+  plugin_enabled: true
+drops:
+  '0':
+    itemtype: BUCKET
+    amount: 1
+  '1':
+    itemtype: COAL
+    amount: 1
+  '2':
+    itemtype: MAGENTA_DYE
+    amount: 1
+  '3':
+    itemtype: LIGHT_BLUE_DYE
+    amount: 1
+  '4':
+    itemtype: BEACON
+    amount: 1
+  '5':
+    itemtype: NETHERITE_INGOT
+    amount: 1
+  '6':
+    itemtype: NETHERITE_SCRAP
+    amount: 1
+  '7':
+    itemtype: ORANGE_DYE
+    amount: 1
+  '8':
+    itemtype: IRON_INGOT
+    amount: 1
+  '9':
+    itemtype: WHEAT
+    amount: 1
+  '10':
+    itemtype: WHEAT_SEEDS
+    amount: 1
+  '11':
+    itemtype: WATER_BUCKET
+    amount: 1
+  '12':
+    itemtype: YELLOW_DYE
+    amount: 1
+  '13':
+    itemtype: DARK_OAK_PLANKS
+    amount: 1
+  '14':
+    itemtype: BEDROCK
+    amount: 1
